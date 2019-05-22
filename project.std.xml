@@ -366,7 +366,7 @@
  <GraphicObjectList number="1">
   <GraphicObject graphic_type="7">
    <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="1644686096" width="0.5">
+    <GraphicalObject Id="" IndexForLabel="-799693104" width="0.5">
      <Color r="0" g="0" b="0"/>
      <LatLongTypeList number="2">
       <LatLongPair latitude="44.88468472635399" longitude="-123.2305753403848"/>
@@ -1261,10 +1261,10 @@
     </TxStudy>
    </TxSite>
   </Transmitter_Template>
-  <Transmitter_Template transmitter_template_label="Copy of ABAA">
+  <Transmitter_Template transmitter_template_label="Copy of ABAB">
    <TxSite>
     <TxStudy>
-     <BaseStation name="" guid="00000000-0000-0000-0000-000000000000" latitude="44.67125913109675" longitude="-122.9798001339824" elevation="73.02191162109375" info_type="1" elevation_type="2">
+     <BaseStation name="" guid="00000000-0000-0000-0000-000000000000" latitude="44.65437716973611" longitude="-123.0164945002825" elevation="204.2861175537109" info_type="1" elevation_type="2">
       <Other address_line1="" address_line2="" address_line3="" telephone="" owner="" tower_number="">
        <note_file size="0"/>
        <photo_file size="0"/>
@@ -1377,7 +1377,7 @@
        </TransmitterAntenna>
        <ReceiverAntenna>
         <TxAntenna coax_cable_loss="1.0" coupling_loss="0.0" coupling_loss_spec_distance="0.0" coax_routing_name="">
-         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H120.PAT" antenna_height="30.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="0.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="6.0" radome_loss="0.0" max_transmit_power_per_channel="15.0" min_transmit_power_per_channel="0.0" tx_rx_type="transmitter 1" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="" use_antenna_type="false" az_orient="240.0" beam_tilt="0.0" beam_tilt_az="240.0" rotate_antenna="false"/>
+         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H120.PAT" antenna_height="30.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="3.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="15.0" min_transmit_power_per_channel="0.0" tx_rx_type="transmitter 1" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="" use_antenna_type="false" az_orient="240.0" beam_tilt="0.0" beam_tilt_az="240.0" rotate_antenna="false"/>
         </TxAntenna>
        </ReceiverAntenna>
        <Channel lock_status="unlocked" dvcc="1" bcc="1" ncc="1" dcch="1" lci="1" use_freq_hop="false" freq_hop_gain="3.0" gsm_diversity_gain_type="1" gsm_fixed_diversity_gain="3.0" gsm_db_per_freq_gain="3.0" gsm_fh_sequence_no="0" gsm_maio_offset="0" gsm_AMR_on="0" gsm_DTX_on="0" gsm_dtx_intrf_gain="3.0" number_of_assignable_downlink_channels="0" number_of_assignable_uplink_channels="0" sat="5970" dcc="1" band="L">
@@ -1397,7 +1397,7 @@
        <LTEChannels cell_id="0" cell_id_group="0"/>
        <MeasAnalysis data_file_name="" selected_sector="" meas_data_file_type="EDX" limit_by_distance="false" limit_by_azimuth="false" limit_by_boundary_file="false" limit_by_measurement="false" limit_by_avg_data="false" distance_min="0.1" distance_max="1000.0" azimuth_start="0.0" azimuth_end="0.0" measurement_min="0.0" measurement_max="0.0" average_data="1.0" boundary_file=""/>
        <Receiver adjacent_channel_rejection="25.0" use_diversity_receive_antenna="false" predicted_ul_ix="-160.0" measured_ul_ix="-160.0" override_ul_ix="false" use_TTA_multi="false">
-        <ReceiverBase required_service_CIN_ratio="16.0" system_noise_figure="6.0" eff_noise_bandwidth="0.05" filter_file_code="0" diversity_type="unprotected" effective_diversity_gain="5.0"/>
+        <ReceiverBase required_service_CIN_ratio="13.0" system_noise_figure="5.0" eff_noise_bandwidth="0.2" filter_file_code="0" diversity_type="unprotected" effective_diversity_gain="5.0"/>
         <AmplifierData use_TTA="false" use_multicoupler="false" TTA_gain="0.0" TTA_noise="0.0" MC_gain="0.0" MC_noise="0.0" BTS_noise="0.0"/>
        </Receiver>
        <OptimizationData cost="0.0"/>
@@ -2096,12 +2096,22 @@
  </MultipointStudyLayout>
  <NeighborListGeneration max_neighbors="4" include_2nd_servers="true" include_3rd_servers="true" exclude_co_channel_neighbors="true" group_identifier="master group" server_selection="PowerReceived" copy_predicted_to_actual="false" remote_unit_ID="0"/>
  <TxGroups size="1">
-  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="5">
+  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="15">
    <TX_ID id="ABAA0001" active="true"/>
-   <TX_ID id="ABAA0002" active="true"/>
    <TX_ID id="ABAA0003" active="true"/>
    <TX_ID id="ABAB0001" active="true"/>
    <TX_ID id="ABAB0003" active="true"/>
+   <TX_ID id="ABAD0001" active="true"/>
+   <TX_ID id="ABAD0002" active="true"/>
+   <TX_ID id="ABAD0003" active="true"/>
+   <TX_ID id="ABAE0001" active="true"/>
+   <TX_ID id="ABAE0002" active="true"/>
+   <TX_ID id="ABAF0003" active="true"/>
+   <TX_ID id="ABAH0001" active="true"/>
+   <TX_ID id="ABAH0003" active="true"/>
+   <TX_ID id="ABAI0001" active="true"/>
+   <TX_ID id="ABAI0002" active="true"/>
+   <TX_ID id="ABAI0003" active="true"/>
   </TxGroup>
  </TxGroups>
  <LinkGroups size="1">
