@@ -61,18 +61,7 @@
    <ColorMapEntry val="20.0" r="255" g="0" b="255" symbol="SOLID"/>
    <ColorMapEntry val="10.0" r="64" g="0" b="64" symbol="SOLID"/>
   </ColorMap>
-  <ColorMap size="10">
-   <ColorMapEntry val="1.0" r="255" g="0" b="0" symbol="SOLID"/>
-   <ColorMapEntry val="0.8889" r="226" g="28" b="7" symbol="SOLID"/>
-   <ColorMapEntry val="0.7777999999999999" r="198" g="56" b="14" symbol="SOLID"/>
-   <ColorMapEntry val="0.6667000000000001" r="170" g="85" b="21" symbol="SOLID"/>
-   <ColorMapEntry val="0.5556" r="141" g="113" b="28" symbol="SOLID"/>
-   <ColorMapEntry val="0.4444" r="113" g="141" b="36" symbol="SOLID"/>
-   <ColorMapEntry val="0.3333" r="85" g="170" b="43" symbol="SOLID"/>
-   <ColorMapEntry val="0.2222" r="56" g="198" b="50" symbol="SOLID"/>
-   <ColorMapEntry val="0.1111" r="28" g="226" b="57" symbol="SOLID"/>
-   <ColorMapEntry val="0.0" r="0" g="255" b="64" symbol="SOLID"/>
-  </ColorMap>
+  <ColorMap size="0"/>
   <ColorMap size="10">
    <ColorMapEntry val="100.0" r="255" g="255" b="0" symbol="SOLID"/>
    <ColorMapEntry val="90.0" r="255" g="0" b="0" symbol="SOLID"/>
