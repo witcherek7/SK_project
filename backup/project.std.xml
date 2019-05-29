@@ -366,7 +366,7 @@
  <GraphicObjectList number="1">
   <GraphicObject graphic_type="7">
    <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="-1708151456" width="1.0">
+    <GraphicalObject Id="" IndexForLabel="-1639360224" width="1.0">
      <Color r="0" g="0" b="0"/>
      <LatLongTypeList number="2">
       <LatLongPair latitude="44.6821831999285" longitude="-123.4095098899771"/>
