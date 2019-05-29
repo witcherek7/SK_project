@@ -1,8 +1,17 @@
-study index3
+study index2
 Site ID   Ant. Elev. AMSL (m )  Frequency (MHz)  ERPi(dbW) Orient./Pol.  Group  Coordinates
 --------  --------------------  ---------------  ----------  ------------  -----  ---------------------------
-ABAA0002                 366.8        900.00000       32.00    Use file-vertical      1  N44°25'05.78" W123°21'21.09"
-ABAA0003                 366.8        900.00000       32.00    Use file-vertical      1  N44°25'05.78" W123°21'21.09"
-ABAD0001                 239.7        900.00000       19.40    Use file-vertical      1  N44°50'27.48" W123°07'50.23"
-ABAD0003                 239.7        900.00000       19.40    Use file-vertical      1  N44°50'27.48" W123°07'50.23"
-ABAD0002                 239.7        900.00000       19.40    Use file-vertical      1  N44°50'27.48" W123°07'50.23"
+ABAA0001                 378.0        900.00000       21.40    Use file-vertical      1  N44°19'29.96" W123°00'17.52"
+ABAA0003                 378.0        900.00000       21.40    Use file-vertical      1  N44°19'29.96" W123°00'17.52"
+ABAB0001                 232.1        900.00000       21.40    Use file-vertical      1  N44°40'03.50" W122°53'02.65"
+ABAB0002                 232.1        900.00000       21.40    Use file-vertical      1  N44°40'03.50" W122°53'02.65"
+ABAB0003                 232.1        900.00000       21.40    Use file-vertical      1  N44°40'03.50" W122°53'02.65"
+ABAC0002                 428.4        900.00000       21.40    Use file-vertical      1  N44°16'35.84" W123°20'48.07"
+ABAC0003                 428.4        900.00000       21.40    Use file-vertical      1  N44°16'35.84" W123°20'48.07"
+ABAD0001                 508.0        900.00000       21.40    Use file-vertical      1  N44°37'23.89" W123°18'53.77"
+ABAD0002                 508.0        900.00000       21.40    Use file-vertical      1  N44°37'23.89" W123°18'53.77"
+ABAF0001                 657.5        900.00000       21.40    Use file-vertical      1  N44°23'57.01" W122°51'49.29"
+ABAF0002                 657.5        900.00000       21.40    Use file-vertical      1  N44°23'57.01" W122°51'49.29"
+ABAF0003                 657.5        900.00000       21.40    Use file-vertical      1  N44°23'57.01" W122°51'49.29"
+ABAI0001                 432.3        900.00000       21.40    Use file-vertical      1  N44°30'35.80" W122°58'08.85"
+ABAI0003                 432.3        900.00000       21.40    Use file-vertical      1  N44°30'35.80" W122°58'08.85"

@@ -1,0 +1,45 @@
+'Received Power at remote'                                            
+   Minimum value:  -103.0
+   Maximum value:   -19.1
+   All areas based on study grid cell counts in query area
+   Total query area:      38.400 km2
+   Total valid signal area:      33.140 km2     86.30% of total query area
+   Server ID: ABAD0003     Area:       9.400 km2     24.48%  Ave. value:   -87.2   dBmW
+   Server ID: ABAD0002     Area:      10.770 km2     28.05%  Ave. value:   -87.4   dBmW
+   Server ID: ABAD0001     Area:      12.970 km2     33.78%  Ave. value:   -90.1   dBmW
+
+
+'Strongest (most likely) Server'                                      
+   No valid signal map data points are inside query area
+
+
+'Received Power at remote'                                            
+   Minimum value:  -103.0
+   Maximum value:   -28.8
+   All areas based on study grid cell counts in query area
+   Total query area:      38.400 km2
+   Total valid signal area:      35.100 km2     91.41% of total query area
+   Server ID: ABAB0003     Area:      11.440 km2     29.79%  Ave. value:   -91.0   dBmW
+   Server ID: ABAC0003     Area:       0.080 km2      0.21%  Ave. value:   -99.7   dBmW
+   Server ID: ABAA0003     Area:       0.140 km2      0.36%  Ave. value:  -101.6   dBmW
+   Server ID: ABAE0003     Area:       0.000 km2      0.00%  Ave. value:     NaN   dBmW
+   Server ID: ABAG0003     Area:       0.030 km2      0.08%  Ave. value:  -100.8   dBmW
+   Server ID: ABAB0001     Area:      12.940 km2     33.70%  Ave. value:   -89.9   dBmW
+   Server ID: ABAD0003     Area:       0.000 km2      0.00%  Ave. value:     NaN   dBmW
+   Server ID: ABAB0002     Area:      10.470 km2     27.27%  Ave. value:   -88.2   dBmW
+
+
+'Strongest (most likely) Server'                                      
+   No valid signal map data points are inside query area
+
+
+Transmitters: 
+   ABAD0001  TX ht:  20.0 m AGL  ERPi:  17.00 dBW  DA   VV    0.0 degs     900.00000 MHz
+
+
+Terrain map data: 
+   Minimum map terrain elevation:    79.0 meters
+   Maximum map terrain elevation:   261.0 meters
+   Average map terrain elevation:   109.8 meters
+
+

@@ -1,0 +1,82 @@
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+error in 2nd attempt PrepareFontChars alpha =  0
+Duplicate transmitter sites merged to single site: ABAA
+
+Duplicate transmitter sites merged to single site: ABAA
+
+Duplicate transmitter sites merged to single site: ABAB
+
+Duplicate transmitter sites merged to single site: ABAB
+
+Duplicate transmitter sites merged to single site: ABAC
+
+Duplicate transmitter sites merged to single site: ABAC
+
+Duplicate transmitter sites merged to single site: ABAD
+
+Duplicate transmitter sites merged to single site: ABAD
+
+Duplicate transmitter sites merged to single site: ABAE
+
+Duplicate transmitter sites merged to single site: ABAE
+
+Duplicate transmitter sites merged to single site: ABAF
+
+Duplicate transmitter sites merged to single site: ABAF
+
+Duplicate transmitter sites merged to single site: ABAG
+
+Duplicate transmitter sites merged to single site: ABAG
+
