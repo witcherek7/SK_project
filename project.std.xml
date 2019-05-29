@@ -404,6 +404,17 @@
   <availiable_buildings no_of_avail="0"/>
  </BestLOSBuildings>
  <GraphicObjectList number="2">
+  <GraphicObject graphic_type="7">
+   <RectangleObject is_rounded="false">
+    <GraphicalObject Id="" IndexForLabel="772970160" width="1.0">
+     <Color r="0" g="0" b="0"/>
+     <LatLongTypeList number="2">
+      <LatLongPair latitude="44.6821831999285" longitude="-123.4095098899771"/>
+      <LatLongPair latitude="44.23208086465989" longitude="-122.7799503635426"/>
+     </LatLongTypeList>
+    </GraphicalObject>
+   </RectangleObject>
+  </GraphicObject>
   <GraphicObject graphic_type="14">
    <ServiceAreaBoundaryObject Level_Type="2" GUID="df5c1917-dc3a-438e-b0f1-879017499f04" ParentGUID="">
     <PolygonObject UseFillPattern="false">
@@ -429,17 +440,6 @@
      </PolylineObject>
     </PolygonObject>
    </ServiceAreaBoundaryObject>
-  </GraphicObject>
-  <GraphicObject graphic_type="7">
-   <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="818453872" width="1.0">
-     <Color r="0" g="0" b="0"/>
-     <LatLongTypeList number="2">
-      <LatLongPair latitude="44.6821831999285" longitude="-123.4095098899771"/>
-      <LatLongPair latitude="44.23208086465989" longitude="-122.7799503635426"/>
-     </LatLongTypeList>
-    </GraphicalObject>
-   </RectangleObject>
   </GraphicObject>
  </GraphicObjectList>
  <RFLabelObjectList number="0"/>
@@ -1857,8 +1857,33 @@
  </Transmitter_Templates>
  <FirstGenSystem>
   <SystemTypeList last_selected_index="1" service_area_boundary_filename="&lt;PROJECT_PATH&gt;\LINIA.BNA">
-   <SystemType system_name="system group 1" system_type="GSM" frequency_band="Custom 4" custom_lower_band_edge1="1000.0" custom_upper_band_edge1="1000.0" custom_lower_band_edge2="1000.0" custom_upper_band_edge2="1000.0" custom_lower_band_edge3="1000.0" custom_upper_band_edge3="1000.0" custom_lower_band_edge4="935.0" custom_upper_band_edge4="960.0" forward_link_lower_band_edge="935.0" forward_link_upper_band_edge="960.0" system_carrier_spacing="200.0" voice_channels_per_RF_channel="8" signal_level_minimum="1.0" track_traffic="false" track_traffic_type="1" track_traffic_cap="0.0">
-    <ChannelPlanTemplate channel_plan_template_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\CPT\AMPS7_A.CPT" no_of_channel_group_colors="0" downlink_fade_margin_objective="10.0" uplink_fade_margin_objective="10.0" maximum_channel_overbooking_pc="10.0" assign_multiple_access_channels="false" assign_frequency_hopping_sequences="false" frequency_hopping_sequency_filename="" random_seed="0" assignment_mode="find_and_set_all_servers" channel_assignment_mode="assign_any_uplink_non_interfering_to_CT"/>
+   <SystemType system_name="system group 1" system_type="GSM" frequency_band="935 MHz" custom_lower_band_edge1="1000.0" custom_upper_band_edge1="1000.0" custom_lower_band_edge2="1000.0" custom_upper_band_edge2="1000.0" custom_lower_band_edge3="1000.0" custom_upper_band_edge3="1000.0" custom_lower_band_edge4="935.0" custom_upper_band_edge4="960.0" forward_link_lower_band_edge="935.0" forward_link_upper_band_edge="960.0" system_carrier_spacing="200.0" voice_channels_per_RF_channel="8" signal_level_minimum="1.0" track_traffic="false" track_traffic_type="1" track_traffic_cap="0.0">
+    <ChannelPlanTemplate channel_plan_template_filename="&lt;USER_DOC_PATH&gt;\GITHUB\GSM4.CPT" no_of_channel_group_colors="8" downlink_fade_margin_objective="10.0" uplink_fade_margin_objective="10.0" maximum_channel_overbooking_pc="10.0" assign_multiple_access_channels="false" assign_frequency_hopping_sequences="false" frequency_hopping_sequency_filename="" random_seed="0" assignment_mode="find_and_set_all_servers" channel_assignment_mode="assign_any_uplink_non_interfering_to_CT">
+     <group>
+      <Color r="88" g="199" b="87"/>
+     </group>
+     <group>
+      <Color r="104" g="107" b="227"/>
+     </group>
+     <group>
+      <Color r="5" g="70" b="63"/>
+     </group>
+     <group>
+      <Color r="160" g="143" b="29"/>
+     </group>
+     <group>
+      <Color r="44" g="25" b="194"/>
+     </group>
+     <group>
+      <Color r="184" g="175" b="158"/>
+     </group>
+     <group>
+      <Color r="188" g="235" b="78"/>
+     </group>
+     <group>
+      <Color r="58" g="41" b="254"/>
+     </group>
+    </ChannelPlanTemplate>
     <Gen1>
      <CdmaSystemParameters soft_handoff_gain="0.0" cdma_chip_rate="1.2288" base_station_noise="5.0" mobile_station_noise="8.0" total_pilot_code_offsets="1" total_channel_codes="64" mobile_station_erp="0.0" max_base_station_tce_erp="1.0" frequency_reuse_factor="0.45" percent_power_for_pilot_channel="20.0" percent_power_for_traffic_channel="75.0" percent_power_for_sync_channel="2.0" percent_power_for_paging_channel="3.0" handoff_initiate_threshold="-12.0" handoff_drop_threshold="-16.0" orthogonality_factor="1.0" imperfect_apc_factor="0.1" traffic_data_rate="1200.0" n_srch_win_a="0" group_identifier="master group" pn_c_over_i_ratio="0.5" cdma_target_eb_over_no="0.5" pn_reserved_offsets_size="0"/>
     </Gen1>
@@ -1948,9 +1973,9 @@
   </SystemTypeList>
  </ThirdGenSystem>
  <LayoutDesign nominal_cell_radius="10.0" show_hexagon_grid="true" tx_template_index="0" system="0"/>
- <FrequencyPlanning CI_ratio_objective="18.0" percent_traffic_for_planning="0.0" use_intrf_file="0" channel_type_to_assign="2" percent_interf_acceptance="2.0" blocking_probability="0.0" average_call_duration="0.0" traffic_data_or_voice="predicted voice traffic on sectors" number_of_bcch_traffic_channels="1" uniform_traffic_calls_per_hour="0" demo_traffic_calls_per_hour="0" auto_plan_level="level 2" group_id="Master group" remote_unit_ID="0">
+ <FrequencyPlanning CI_ratio_objective="13.0" percent_traffic_for_planning="100.0" use_intrf_file="0" channel_type_to_assign="2" percent_interf_acceptance="5.0" blocking_probability="0.0" average_call_duration="0.0" traffic_data_or_voice="predicted voice traffic on sectors" number_of_bcch_traffic_channels="1" uniform_traffic_calls_per_hour="0" demo_traffic_calls_per_hour="0" auto_plan_level="level 2" group_id="Master group" remote_unit_ID="0">
   <SimulatedAnneal cool_level="30" iterations="100" temp_mult="0.85" co_ch_weight="1.0" adj_ch_weight="0.01" weight_interf="1.0" weight_demand="1.0"/>
-  <AFPConstraints deny_co_channel_="true" deny_adj_channel="true" assign_fixed_number_channels="false" min_channel_seperation="4" fixed_number_of_channels="0"/>
+  <AFPConstraints deny_co_channel_="true" deny_adj_channel="true" assign_fixed_number_channels="false" min_channel_seperation="2" fixed_number_of_channels="0"/>
  </FrequencyPlanning>
  <PMP_AFP_Options server_threshold="-120.0" max_channels_per_sector="1" max_traffic_sector="100" max_most_likely_server_count="5" capacity_limit_type="0" set_mode="0" max_cpes_per_channel_sector="38" required_CIN="20.0" number_of_trial_solutions="200" max_channels_to_use="4" fresnel_threshold_to_use_x_polarization="0.6" use_adjacent_channel_rejection="false" adjacent_channel_db="15.0" use_xpol="false" random_seed="0" num_simultaneous_plans="100" max_signal_drop="20.0" overbooking_percent="20" assignment_option="1" assignment_CIN="10.0" swaps_per_cpe_assignment_step="50" cooling_steps="100" assign_channel_count_by_traffic="true" deny_co_channel_at_site="true" deny_adjacent_channel_at_site="false" use_existing_servers="false" randomise_swap_count="0" use_geometric_sort="false" balance_sector_load="true" consider_uplink="true" randomize_afp_count="true" variance_weight="1000.0" swapKeepFraction="79" WeakCPEPenaltyPercent="100" SectorOrderRandomPercent="20" cpeSwapParrallelism="3" cpeSwapCoolRate="1" useLegacyMethod="false"/>
  <RFEquipmentList base_hub_link_tx_equipment_list_file="&lt;INSTALL_PATH&gt;\LIBRARY DATA\EQUIPMENT\TX_DATA.DAT" base_hub_link_rx_equipment_list_file="&lt;INSTALL_PATH&gt;\LIBRARY DATA\EQUIPMENT\RX_DATA.DAT" remote_rx_equipment_list_file="&lt;INSTALL_PATH&gt;\LIBRARY DATA\EQUIPMENT\RX_MOB_DATA.DAT" tx_line_waveguide_list_file="&lt;INSTALL_PATH&gt;\LIBRARY DATA\EQUIPMENT\XLINE.DAT" antenna_pattern_library_file="&lt;INSTALL_PATH&gt;\LIBRARY DATA\EQUIPMENT\ANTENNA_TYPES.DAT"/>

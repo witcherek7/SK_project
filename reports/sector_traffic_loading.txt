@@ -1,0 +1,28 @@
+Traffic Loading Report
+----------------------
+
+Traffic source: Traffic from traffic database                     
+
+Circuit-switched blocking probability:   1.00%
+
+Circuit-switched average call duration:   1.76 minutes
+
+Percent of total traffic carried by group: 100.00 %
+
+          Circuit Traffic  Circuit Traffic   Number of    Channel  Current Blocking Packet Traffic
+Sector ID   (mErlangs)    Required Channels Channels Set Shortfall Probability (%)  (average mbps)
+--------- --------------- ----------------- ------------ --------- ---------------- --------------
+ABAA0001     26160.49             40             40           0          0.00         26.1605
+ABAA0003      6896.23             15             16          -1          0.22          6.8962
+ABAB0001      8936.04             18             24          -6          0.00          8.9360
+ABAB0002     44394.26             62             64          -2          0.00         44.3943
+ABAB0003       668.98              4              8          -4          0.00          0.6690
+ABAC0002     16216.08             27             32          -5          0.04         16.2161
+ABAC0003      2756.66              8              8           0          0.80          2.7567
+ABAD0001     95859.51            121            128          -7          0.00         95.8595
+ABAD0002    114768.36            142            144          -2          0.00        114.7684
+ABAF0001      5255.52             12             16          -4          0.01          5.2555
+ABAF0002      1952.83              7              8          -1          0.10          1.9528
+ABAF0003      3404.52              9             16          -7          0.00          3.4045
+ABAI0001     51040.48             70             72          -2          0.00         51.0405
+ABAI0003     24459.82             38             40          -2          0.00         24.4598

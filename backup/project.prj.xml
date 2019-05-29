@@ -45,7 +45,18 @@
    <ColorMapEntry val="-90.0" r="0" g="128" b="0" symbol="SOLID"/>
    <ColorMapEntry val="-90.0" r="128" g="128" b="128" symbol="SOLID"/>
   </ColorMap>
-  <ColorMap size="0"/>
+  <ColorMap size="10">
+   <ColorMapEntry val="99.0" r="255" g="255" b="0" symbol="SOLID"/>
+   <ColorMapEntry val="90.0" r="255" g="0" b="0" symbol="SOLID"/>
+   <ColorMapEntry val="80.0" r="0" g="255" b="255" symbol="SOLID"/>
+   <ColorMapEntry val="70.0" r="0" g="128" b="0" symbol="SOLID"/>
+   <ColorMapEntry val="60.0" r="128" g="128" b="128" symbol="SOLID"/>
+   <ColorMapEntry val="50.0" r="0" g="0" b="255" symbol="SOLID"/>
+   <ColorMapEntry val="40.0" r="0" g="0" b="0" symbol="SOLID"/>
+   <ColorMapEntry val="30.0" r="255" g="128" b="0" symbol="SOLID"/>
+   <ColorMapEntry val="20.0" r="255" g="0" b="255" symbol="SOLID"/>
+   <ColorMapEntry val="20.0" r="64" g="0" b="64" symbol="CIRCLE"/>
+  </ColorMap>
   <ColorMap size="10">
    <ColorMapEntry val="100.0" r="255" g="255" b="0" symbol="SOLID"/>
    <ColorMapEntry val="90.0" r="255" g="0" b="0" symbol="SOLID"/>
