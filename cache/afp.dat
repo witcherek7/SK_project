@@ -1,0 +1,200 @@
+Temp. level:    1.000     Acceptance ratio:    0.900     Current cost:       46.054
+Temp. level:    0.850     Acceptance ratio:    0.780     Current cost:       35.865
+Temp. level:    0.722     Acceptance ratio:    0.810     Current cost:       42.392
+Temp. level:    0.614     Acceptance ratio:    0.800     Current cost:       32.504
+Temp. level:    0.522     Acceptance ratio:    0.710     Current cost:       34.106
+Temp. level:    0.444     Acceptance ratio:    0.520     Current cost:       38.341
+Temp. level:    0.377     Acceptance ratio:    0.470     Current cost:       33.188
+Temp. level:    0.321     Acceptance ratio:    0.370     Current cost:       31.144
+Temp. level:    0.272     Acceptance ratio:    0.360     Current cost:       27.989
+Temp. level:    0.232     Acceptance ratio:    0.220     Current cost:       23.263
+Temp. level:    0.197     Acceptance ratio:    0.040     Current cost:       20.199
+Temp. level:    0.167     Acceptance ratio:    0.020     Current cost:       19.440
+Temp. level:    0.142     Acceptance ratio:    0.050     Current cost:       16.015
+Temp. level:    0.121     Acceptance ratio:    0.030     Current cost:       16.499
+Temp. level:    0.103     Acceptance ratio:    0.060     Current cost:       14.118
+Temp. level:    0.087     Acceptance ratio:    0.000     Current cost:       14.118
+Temp. level:    0.074     Acceptance ratio:    0.000     Current cost:       14.118
+Temp. level:    0.063     Acceptance ratio:    0.000     Current cost:       14.118
+Temp. level:    0.054     Acceptance ratio:    0.000     Current cost:       14.118
+Temp. level:    0.046     Acceptance ratio:    0.000     Current cost:       14.118
+Temp. level:    0.039     Acceptance ratio:    0.030     Current cost:       13.704
+Temp. level:    0.033     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.028     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.024     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.020     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.017     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.015     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.012     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.011     Acceptance ratio:    0.000     Current cost:       13.704
+Temp. level:    0.009     Acceptance ratio:    0.000     Current cost:       13.704
+sectors ABAA0001 on ch 17,ABAL0001 on ch 17, cost =0.008
+sectors ABAA0001 on ch 54,ABAN0001 on ch 54, cost =0.008
+sectors ABAA0001 on ch 17,ABAR0001 on ch 17, cost =0.002
+sectors ABAA0001 on ch 17,ABAS0002 on ch 17, cost =0.017
+sectors ABAA0003 on ch **,ABAI0001 on ch **, cost =0.009
+sectors ABAA0003 on ch **,ABAP0002 on ch **, cost =0.098
+sectors ABAB0001 on ch  2,ABAN0001 on ch  2, cost =0.070
+sectors ABAB0001 on ch  9,ABAR0001 on ch  9, cost =0.003
+sectors ABAB0002 on ch **,ABAE0002 on ch **, cost =0.012
+sectors ABAB0002 on ch 22,ABAI0001 on ch 22, cost =0.038
+sectors ABAB0002 on ch **,ABAP0001 on ch **, cost =0.003
+sectors ABAB0003 on ch 26,ABAS0001 on ch 26, cost =0.024
+sectors ABAC0002 on ch 65,ABAE0001 on ch 65, cost =0.002
+sectors ABAC0002 on ch 62,ABAH0001 on ch 62, cost =0.037
+sectors ABAC0002 on ch 65,ABAI0001 on ch 65, cost =0.003
+sectors ABAC0002 on ch 62,ABAP0001 on ch 62, cost =0.005
+sectors ABAC0003 on ch **,ABAQ0002 on ch **, cost =0.008
+sectors ABAC0003 on ch 89,ABAQ0002 on ch 89, cost =0.008
+sectors ABAC0003 on ch **,ABAT0002 on ch **, cost =0.002
+sectors ABAD0001 on ch 74,ABAF0003 on ch 74, cost =0.003
+sectors ABAD0001 on ch 89,ABAL0002 on ch 89, cost =0.244
+sectors ABAD0001 on ch 74,ABAL0002 on ch 74, cost =0.244
+sectors ABAD0001 on ch 74,ABAM0001 on ch 74, cost =0.017
+sectors ABAD0001 on ch **,ABAP0001 on ch **, cost =0.110
+sectors ABAD0001 on ch **,ABAQ0001 on ch **, cost =0.005
+sectors ABAD0001 on ch 89,ABAQ0002 on ch 89, cost =0.129
+sectors ABAD0002 on ch 57,ABAF0001 on ch 57, cost =0.010
+sectors ABAD0002 on ch 38,ABAP0001 on ch 38, cost =0.059
+sectors ABAD0002 on ch **,ABAP0002 on ch **, cost =0.334
+sectors ABAE0001 on ch 65,ABAC0002 on ch 65, cost =0.064
+sectors ABAE0001 on ch 72,ABAP0001 on ch 72, cost =0.400
+sectors ABAE0001 on ch 65,ABAR0001 on ch 65, cost =0.046
+sectors ABAE0002 on ch **,ABAB0002 on ch **, cost =0.054
+sectors ABAF0001 on ch 57,ABAD0002 on ch 57, cost =0.010
+sectors ABAF0001 on ch 57,ABAN0001 on ch 57, cost =0.015
+sectors ABAF0001 on ch 50,ABAN0001 on ch 50, cost =0.015
+sectors ABAF0002 on ch 44,ABAQ0002 on ch 44, cost =0.008
+sectors ABAF0003 on ch 92,ABAL0002 on ch 92, cost =0.004
+sectors ABAF0003 on ch 74,ABAL0002 on ch 74, cost =0.004
+sectors ABAF0003 on ch 74,ABAM0001 on ch 74, cost =0.003
+sectors ABAG0001 on ch **,ABAA0003 on ch **, cost =0.004
+sectors ABAG0001 on ch **,ABAP0002 on ch **, cost =0.291
+sectors ABAG0002 on ch 72,ABAP0001 on ch 72, cost =0.018
+sectors ABAH0001 on ch 62,ABAC0002 on ch 62, cost =0.531
+sectors ABAH0001 on ch 62,ABAP0001 on ch 62, cost =0.050
+sectors ABAH0002 on ch  2,ABAB0001 on ch  2, cost =0.004
+sectors ABAH0002 on ch  2,ABAL0002 on ch  2, cost =0.002
+sectors ABAH0002 on ch 98,ABAL0002 on ch 98, cost =0.002
+sectors ABAH0002 on ch  2,ABAN0001 on ch  2, cost =0.003
+sectors ABAH0002 on ch  2,ABAS0002 on ch  2, cost =0.042
+sectors ABAH0002 on ch 98,ABAT0002 on ch 98, cost =0.002
+sectors ABAI0001 on ch 22,ABAB0002 on ch 22, cost =0.027
+sectors ABAI0001 on ch 65,ABAC0002 on ch 65, cost =0.013
+sectors ABAI0001 on ch 65,ABAE0001 on ch 65, cost =0.004
+sectors ABAI0001 on ch **,ABAG0001 on ch **, cost =0.007
+sectors ABAI0001 on ch **,ABAP0002 on ch **, cost =0.033
+sectors ABAI0001 on ch 65,ABAR0001 on ch 65, cost =0.003
+sectors ABAI0003 on ch  6,ABAL0002 on ch  6, cost =0.154
+sectors ABAI0003 on ch  6,ABAO0003 on ch  6, cost =0.268
+sectors ABAI0003 on ch  6,ABAS0001 on ch  6, cost =0.010
+sectors ABAI0003 on ch 30,ABAT0001 on ch 30, cost =0.014
+sectors ABAJ0001 on ch 41,ABAL0002 on ch 41, cost =0.062
+sectors ABAJ0002 on ch 24,ABAO0003 on ch 24, cost =0.004
+sectors ABAL0001 on ch 17,ABAA0001 on ch 17, cost =0.032
+sectors ABAL0001 on ch 17,ABAO0001 on ch 17, cost =0.174
+sectors ABAL0001 on ch 17,ABAR0001 on ch 17, cost =0.003
+sectors ABAL0001 on ch 17,ABAS0002 on ch 17, cost =0.003
+sectors ABAL0002 on ch  2,ABAB0001 on ch  2, cost =0.007
+sectors ABAL0002 on ch 89,ABAD0001 on ch 89, cost =0.294
+sectors ABAL0002 on ch 74,ABAD0001 on ch 74, cost =0.294
+sectors ABAL0002 on ch 74,ABAF0003 on ch 74, cost =0.009
+sectors ABAL0002 on ch 92,ABAF0003 on ch 92, cost =0.009
+sectors ABAL0002 on ch  2,ABAH0002 on ch  2, cost =0.002
+sectors ABAL0002 on ch 98,ABAH0002 on ch 98, cost =0.002
+sectors ABAL0002 on ch  6,ABAI0003 on ch  6, cost =0.850
+sectors ABAL0002 on ch 41,ABAJ0001 on ch 41, cost =0.081
+sectors ABAL0002 on ch 74,ABAM0001 on ch 74, cost =0.018
+sectors ABAL0002 on ch  2,ABAN0001 on ch  2, cost =0.240
+sectors ABAL0002 on ch 98,ABAO0001 on ch 98, cost =0.012
+sectors ABAL0002 on ch  6,ABAO0003 on ch  6, cost =0.485
+sectors ABAL0002 on ch 89,ABAQ0002 on ch 89, cost =0.292
+sectors ABAL0002 on ch  6,ABAS0001 on ch  6, cost =0.059
+sectors ABAL0002 on ch  2,ABAS0002 on ch  2, cost =0.010
+sectors ABAL0002 on ch 98,ABAT0002 on ch 98, cost =0.011
+sectors ABAM0001 on ch 74,ABAD0001 on ch 74, cost =0.060
+sectors ABAM0001 on ch 74,ABAF0003 on ch 74, cost =0.006
+sectors ABAM0001 on ch 74,ABAL0002 on ch 74, cost =0.052
+sectors ABAM0002 on ch 33,ABAO0003 on ch 33, cost =0.016
+sectors ABAM0002 on ch 33,ABAP0001 on ch 33, cost =0.006
+sectors ABAN0001 on ch 54,ABAA0001 on ch 54, cost =0.134
+sectors ABAN0001 on ch  2,ABAB0001 on ch  2, cost =0.082
+sectors ABAN0001 on ch 57,ABAD0002 on ch 57, cost =0.023
+sectors ABAN0001 on ch 57,ABAF0001 on ch 57, cost =0.089
+sectors ABAN0001 on ch 50,ABAF0001 on ch 50, cost =0.089
+sectors ABAN0001 on ch 44,ABAF0002 on ch 44, cost =0.002
+sectors ABAN0001 on ch 50,ABAG0001 on ch 50, cost =0.002
+sectors ABAN0001 on ch  2,ABAH0002 on ch  2, cost =0.004
+sectors ABAN0001 on ch  2,ABAL0002 on ch  2, cost =0.316
+sectors ABAN0001 on ch 44,ABAQ0002 on ch 44, cost =0.194
+sectors ABAN0001 on ch 14,ABAS0001 on ch 14, cost =0.110
+sectors ABAN0001 on ch  2,ABAS0002 on ch  2, cost =0.005
+sectors ABAN0002 on ch 26,ABAS0001 on ch 26, cost =0.063
+sectors ABAO0001 on ch **,ABAD0002 on ch **, cost =0.004
+sectors ABAO0001 on ch 17,ABAL0001 on ch 17, cost =0.264
+sectors ABAO0001 on ch 98,ABAL0002 on ch 98, cost =0.012
+sectors ABAO0001 on ch 17,ABAR0001 on ch 17, cost =0.003
+sectors ABAO0002 on ch 41,ABAJ0001 on ch 41, cost =0.003
+sectors ABAO0002 on ch 46,ABAR0002 on ch 46, cost =0.004
+sectors ABAO0002 on ch 46,ABAT0001 on ch 46, cost =0.004
+sectors ABAO0002 on ch **,ABAT0001 on ch **, cost =0.004
+sectors ABAO0003 on ch  6,ABAI0003 on ch  6, cost =0.271
+sectors ABAO0003 on ch  6,ABAL0002 on ch  6, cost =0.130
+sectors ABAO0003 on ch 33,ABAP0001 on ch 33, cost =0.348
+sectors ABAO0003 on ch  6,ABAS0001 on ch  6, cost =0.012
+sectors ABAO0003 on ch 70,ABAT0001 on ch 70, cost =0.012
+sectors ABAP0001 on ch **,ABAB0002 on ch **, cost =0.003
+sectors ABAP0001 on ch 62,ABAC0002 on ch 62, cost =0.037
+sectors ABAP0001 on ch **,ABAD0001 on ch **, cost =0.265
+sectors ABAP0001 on ch 38,ABAD0002 on ch 38, cost =0.362
+sectors ABAP0001 on ch 72,ABAE0001 on ch 72, cost =0.139
+sectors ABAP0001 on ch 72,ABAG0002 on ch 72, cost =0.008
+sectors ABAP0001 on ch 62,ABAH0001 on ch 62, cost =0.010
+sectors ABAP0001 on ch 33,ABAM0002 on ch 33, cost =0.003
+sectors ABAP0001 on ch 33,ABAO0003 on ch 33, cost =0.250
+sectors ABAP0001 on ch **,ABAQ0001 on ch **, cost =0.010
+sectors ABAP0001 on ch **,ABAR0002 on ch **, cost =0.064
+sectors ABAP0001 on ch 78,ABAS0001 on ch 78, cost =0.388
+sectors ABAP0001 on ch 68,ABAS0002 on ch 68, cost =0.022
+sectors ABAP0002 on ch **,ABAA0003 on ch **, cost =0.020
+sectors ABAP0002 on ch **,ABAD0002 on ch **, cost =0.579
+sectors ABAP0002 on ch **,ABAG0001 on ch **, cost =0.135
+sectors ABAP0002 on ch **,ABAI0001 on ch **, cost =0.002
+sectors ABAP0002 on ch 26,ABAS0001 on ch 26, cost =0.002
+sectors ABAQ0001 on ch **,ABAD0001 on ch **, cost =0.011
+sectors ABAQ0001 on ch **,ABAP0001 on ch **, cost =0.066
+sectors ABAQ0002 on ch **,ABAC0003 on ch **, cost =0.004
+sectors ABAQ0002 on ch 89,ABAC0003 on ch 89, cost =0.004
+sectors ABAQ0002 on ch 89,ABAD0001 on ch 89, cost =0.075
+sectors ABAQ0002 on ch 44,ABAF0002 on ch 44, cost =0.002
+sectors ABAQ0002 on ch 89,ABAL0002 on ch 89, cost =0.089
+sectors ABAQ0002 on ch 44,ABAN0001 on ch 44, cost =0.023
+sectors ABAQ0002 on ch **,ABAT0002 on ch **, cost =0.005
+sectors ABAR0001 on ch 17,ABAA0001 on ch 17, cost =0.057
+sectors ABAR0001 on ch 65,ABAC0002 on ch 65, cost =0.045
+sectors ABAR0001 on ch 65,ABAE0001 on ch 65, cost =0.217
+sectors ABAR0002 on ch **,ABAP0001 on ch **, cost =0.087
+sectors ABAR0002 on ch 46,ABAT0001 on ch 46, cost =0.026
+sectors ABAS0001 on ch  6,ABAI0003 on ch  6, cost =0.119
+sectors ABAS0001 on ch  6,ABAL0002 on ch  6, cost =0.173
+sectors ABAS0001 on ch 14,ABAN0001 on ch 14, cost =0.018
+sectors ABAS0001 on ch 26,ABAN0002 on ch 26, cost =0.009
+sectors ABAS0001 on ch  6,ABAO0003 on ch  6, cost =0.060
+sectors ABAS0001 on ch 78,ABAP0001 on ch 78, cost =0.429
+sectors ABAS0001 on ch 26,ABAP0002 on ch 26, cost =0.177
+sectors ABAS0002 on ch 17,ABAA0001 on ch 17, cost =0.081
+sectors ABAS0002 on ch 81,ABAB0002 on ch 81, cost =0.034
+sectors ABAS0002 on ch **,ABAB0002 on ch **, cost =0.034
+sectors ABAS0002 on ch  2,ABAH0002 on ch  2, cost =0.038
+sectors ABAS0002 on ch  2,ABAL0002 on ch  2, cost =0.018
+sectors ABAS0002 on ch 68,ABAP0001 on ch 68, cost =0.241
+sectors ABAS0002 on ch **,ABAP0001 on ch **, cost =0.002
+sectors ABAT0001 on ch 30,ABAI0003 on ch 30, cost =0.097
+sectors ABAT0001 on ch 46,ABAO0002 on ch 46, cost =0.002
+sectors ABAT0001 on ch **,ABAO0002 on ch **, cost =0.002
+sectors ABAT0001 on ch 70,ABAO0003 on ch 70, cost =0.051
+sectors ABAT0001 on ch 46,ABAR0002 on ch 46, cost =0.092
+sectors ABAT0002 on ch 98,ABAH0002 on ch 98, cost =0.004
+sectors ABAT0002 on ch 98,ABAL0002 on ch 98, cost =0.081
+sectors ABAT0002 on ch **,ABAQ0002 on ch **, cost =0.023
+  total cost =   13.70376    
