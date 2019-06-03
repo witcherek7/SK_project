@@ -45,17 +45,9 @@
    <ColorMapEntry val="-90.0" r="0" g="128" b="0" symbol="SOLID"/>
    <ColorMapEntry val="-90.0" r="128" g="128" b="128" symbol="SOLID"/>
   </ColorMap>
-  <ColorMap size="10">
-   <ColorMapEntry val="99.0" r="255" g="255" b="0" symbol="SOLID"/>
-   <ColorMapEntry val="90.0" r="255" g="0" b="0" symbol="SOLID"/>
-   <ColorMapEntry val="80.0" r="0" g="255" b="255" symbol="SOLID"/>
-   <ColorMapEntry val="70.0" r="0" g="128" b="0" symbol="SOLID"/>
-   <ColorMapEntry val="60.0" r="128" g="128" b="128" symbol="SOLID"/>
-   <ColorMapEntry val="50.0" r="0" g="0" b="255" symbol="SOLID"/>
-   <ColorMapEntry val="40.0" r="0" g="0" b="0" symbol="SOLID"/>
-   <ColorMapEntry val="30.0" r="255" g="128" b="0" symbol="SOLID"/>
-   <ColorMapEntry val="20.0" r="255" g="0" b="255" symbol="SOLID"/>
-   <ColorMapEntry val="20.0" r="64" g="0" b="64" symbol="CIRCLE"/>
+  <ColorMap size="2">
+   <ColorMapEntry val="99.0" r="0" g="0" b="255" symbol="SOLID"/>
+   <ColorMapEntry val="99.0" r="255" g="0" b="0" symbol="NO_SYMBOL"/>
   </ColorMap>
   <ColorMap size="10">
    <ColorMapEntry val="100.0" r="255" g="255" b="0" symbol="SOLID"/>
@@ -173,7 +165,7 @@
   </DataGridOptions>
  </LinkDetailsOptions>
  <PROJECT_PANE_TREE size="9">
-  <TreeNode NodeType="RFSystems" NodeText="RF Systems" state="66"/>
+  <TreeNode NodeType="RFSystems" NodeText="RF Systems" state="2"/>
   <TreeNode NodeType="Site" NodeText="Transmitter/Base/Hub/Router Sites" state="4192"/>
   <TreeNode NodeType="Link" NodeText="Link Systems" state="4096"/>
   <TreeNode NodeType="Views" NodeText="Map Views" state="96"/>
