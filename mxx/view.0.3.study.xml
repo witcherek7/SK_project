@@ -2,6 +2,6 @@
 <StudyGridParameters version="1.0.0">
    <AreaStudy type="Received power at best base from remote" dBm_threshold="-103.0"/>
    <RemoteUnit height="    1.5" height_reference="AGL" units="meters"/>
-   <GeoCenter latitude="  44.4652912" longitude="-123.0861355"/>
-   <Dimension width="  51.800" height="  48.200" grid_spacing="   0.100" units="km"/>
+   <GeoCenter latitude="  44.4573605" longitude="-123.0926625"/>
+   <Dimension width="  50.400" height="  50.200" grid_spacing="   0.100" units="km"/>
 </StudyGridParameters>               
