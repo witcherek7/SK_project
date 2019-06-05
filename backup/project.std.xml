@@ -404,6 +404,17 @@
   <availiable_buildings no_of_avail="0"/>
  </BestLOSBuildings>
  <GraphicObjectList number="2">
+  <GraphicObject graphic_type="7">
+   <RectangleObject is_rounded="false">
+    <GraphicalObject Id="" IndexForLabel="-199765088" width="1.0">
+     <Color r="0" g="0" b="0"/>
+     <LatLongTypeList number="2">
+      <LatLongPair latitude="44.6821831999285" longitude="-123.4095098899771"/>
+      <LatLongPair latitude="44.23208086465989" longitude="-122.7799503635426"/>
+     </LatLongTypeList>
+    </GraphicalObject>
+   </RectangleObject>
+  </GraphicObject>
   <GraphicObject graphic_type="14">
    <ServiceAreaBoundaryObject Level_Type="2" GUID="df5c1917-dc3a-438e-b0f1-879017499f04" ParentGUID="">
     <PolygonObject UseFillPattern="false">
@@ -429,17 +440,6 @@
      </PolylineObject>
     </PolygonObject>
    </ServiceAreaBoundaryObject>
-  </GraphicObject>
-  <GraphicObject graphic_type="7">
-   <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="0" width="1.0">
-     <Color r="0" g="0" b="0"/>
-     <LatLongTypeList number="2">
-      <LatLongPair latitude="44.6821831999285" longitude="-123.4095098899771"/>
-      <LatLongPair latitude="44.23208086465989" longitude="-122.7799503635426"/>
-     </LatLongTypeList>
-    </GraphicalObject>
-   </RectangleObject>
   </GraphicObject>
  </GraphicObjectList>
  <RFLabelObjectList number="0"/>
