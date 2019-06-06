@@ -2,6 +2,6 @@
 <StudyGridParameters version="1.0.0">
    <AreaStudy type="C/(I+N) at remote for strongest desired base station" dBm_threshold="-120.0"/>
    <RemoteUnit height="    1.5" height_reference="AGL" units="meters"/>
-   <GeoCenter latitude="  44.4623911" longitude="-122.9068989"/>
-   <Dimension width="  50.600" height="  50.600" grid_spacing="   0.100" units="km"/>
+   <GeoCenter latitude="  44.4622310" longitude="-122.9056995"/>
+   <Dimension width="  51.000" height="  50.600" grid_spacing="   0.100" units="km"/>
 </StudyGridParameters>               

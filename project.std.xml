@@ -406,7 +406,7 @@
  <GraphicObjectList number="2">
   <GraphicObject graphic_type="7">
    <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="-923043600" width="0.5">
+    <GraphicalObject Id="" IndexForLabel="1680320944" width="0.5">
      <Color r="0" g="0" b="0"/>
      <LatLongTypeList number="2">
       <LatLongPair latitude="44.68656718500974" longitude="-123.2250097920636"/>
@@ -1784,7 +1784,7 @@
  </MultipointStudyLayout>
  <NeighborListGeneration max_neighbors="4" include_2nd_servers="true" include_3rd_servers="true" exclude_co_channel_neighbors="true" group_identifier="master group" server_selection="PowerReceived" copy_predicted_to_actual="false" remote_unit_ID="0"/>
  <TxGroups size="1">
-  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="40">
+  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="42">
    <TX_ID id="ABAA0001" active="true"/>
    <TX_ID id="ABAA0002" active="true"/>
    <TX_ID id="ABAA0003" active="true"/>
@@ -1810,18 +1810,20 @@
    <TX_ID id="ABAK0001" active="true"/>
    <TX_ID id="ABAL0001" active="true"/>
    <TX_ID id="ABAL0002" active="true"/>
-   <TX_ID id="ABAM0001" active="true"/>
+   <TX_ID id="ABAM0001" active="false"/>
    <TX_ID id="ABAN0001" active="true"/>
    <TX_ID id="ABAO0001" active="true"/>
    <TX_ID id="ABAO0002" active="true"/>
    <TX_ID id="ABAP0001" active="true"/>
    <TX_ID id="ABAQ0001" active="true"/>
    <TX_ID id="ABAR0001" active="true"/>
-   <TX_ID id="ABAS0001" active="true"/>
-   <TX_ID id="ABAT0001" active="true"/>
+   <TX_ID id="ABAS0001" active="false"/>
+   <TX_ID id="ABAT0001" active="false"/>
    <TX_ID id="ABAU0001" active="true"/>
-   <TX_ID id="ABAV0001" active="true"/>
+   <TX_ID id="ABAV0001" active="false"/>
    <TX_ID id="ABAW0001" active="true"/>
+   <TX_ID id="ABAX0001" active="true"/>
+   <TX_ID id="ABAX0002" active="true"/>
    <TX_ID id="ABBA0001" active="true"/>
    <TX_ID id="ABBA0002" active="true"/>
    <TX_ID id="ABBA0003" active="true"/>

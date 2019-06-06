@@ -403,10 +403,36 @@
  <BestLOSBuildings ignore_building_edge_shadow="true" use_building_vector_database="false" percent_building_service_objective="99.0" required_fresnel_zone_clearance="1.0" maximum_of_hub_locations_to_be_found="10" cpe_type_index="0">
   <availiable_buildings no_of_avail="0"/>
  </BestLOSBuildings>
- <GraphicObjectList number="1">
+ <GraphicObjectList number="2">
+  <GraphicObject graphic_type="14">
+   <ServiceAreaBoundaryObject Level_Type="2" GUID="28a5869d-af1e-4399-80b6-35ce7fff5064" ParentGUID="">
+    <PolygonObject UseFillPattern="false">
+     <PolygonObjectFill>
+      <FillDesc fill_style="solid">
+       <Color r="0" g="0" b="0"/>
+      </FillDesc>
+     </PolygonObjectFill>
+     <PolylineObject>
+      <PenDesc width="0.0" style="solid">
+       <Color r="0" g="0" b="0"/>
+      </PenDesc>
+      <GraphicalObject Id="" IndexForLabel="0" width="0.0">
+       <Color r="0" g="255" b="0"/>
+       <LatLongTypeList number="5">
+        <LatLongPair latitude="44.69266731906698" longitude="-123.2270997799244"/>
+        <LatLongPair latitude="44.23543234447398" longitude="-123.2245140979361"/>
+        <LatLongPair latitude="44.23490365824532" longitude="-122.5876854367386"/>
+        <LatLongPair latitude="44.69036737863382" longitude="-122.5877843191769"/>
+        <LatLongPair latitude="44.69207671918186" longitude="-123.2262650191929"/>
+       </LatLongTypeList>
+      </GraphicalObject>
+     </PolylineObject>
+    </PolygonObject>
+   </ServiceAreaBoundaryObject>
+  </GraphicObject>
   <GraphicObject graphic_type="7">
    <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="-873406048" width="0.5">
+    <GraphicalObject Id="" IndexForLabel="1767164672" width="0.5">
      <Color r="0" g="0" b="0"/>
      <LatLongTypeList number="2">
       <LatLongPair latitude="44.68656718500974" longitude="-123.2250097920636"/>
@@ -1427,7 +1453,7 @@
   </Transmitter_Template>
  </Transmitter_Templates>
  <FirstGenSystem>
-  <SystemTypeList last_selected_index="1" service_area_boundary_filename="&lt;PROJECT_PATH&gt;\LINIA.BNA">
+  <SystemTypeList last_selected_index="1" service_area_boundary_filename="&lt;PROJECT_PATH&gt;\LINIA2.BNA">
    <SystemType system_name="system group 1" system_type="GSM" frequency_band="935 MHz" custom_lower_band_edge1="1000.0" custom_upper_band_edge1="1000.0" custom_lower_band_edge2="1000.0" custom_upper_band_edge2="1000.0" custom_lower_band_edge3="1000.0" custom_upper_band_edge3="1000.0" custom_lower_band_edge4="935.0" custom_upper_band_edge4="960.0" forward_link_lower_band_edge="935.0" forward_link_upper_band_edge="960.0" system_carrier_spacing="200.0" voice_channels_per_RF_channel="8" signal_level_minimum="1.0" track_traffic="false" track_traffic_type="1" track_traffic_cap="0.0">
     <ChannelPlanTemplate channel_plan_template_filename="&lt;PROJECT_PATH&gt;\GSM4.CPT" no_of_channel_group_colors="8" downlink_fade_margin_objective="10.0" uplink_fade_margin_objective="10.0" maximum_channel_overbooking_pc="10.0" assign_multiple_access_channels="false" assign_frequency_hopping_sequences="false" frequency_hopping_sequency_filename="" random_seed="0" assignment_mode="find_and_set_all_servers" channel_assignment_mode="assign_any_uplink_non_interfering_to_CT">
      <group>
