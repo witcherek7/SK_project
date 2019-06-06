@@ -404,6 +404,17 @@
   <availiable_buildings no_of_avail="0"/>
  </BestLOSBuildings>
  <GraphicObjectList number="2">
+  <GraphicObject graphic_type="7">
+   <RectangleObject is_rounded="false">
+    <GraphicalObject Id="" IndexForLabel="1865258096" width="0.5">
+     <Color r="0" g="0" b="0"/>
+     <LatLongTypeList number="2">
+      <LatLongPair latitude="44.68656718500974" longitude="-123.2250097920636"/>
+      <LatLongPair latitude="44.23404395190854" longitude="-122.5880179473995"/>
+     </LatLongTypeList>
+    </GraphicalObject>
+   </RectangleObject>
+  </GraphicObject>
   <GraphicObject graphic_type="14">
    <ServiceAreaBoundaryObject Level_Type="2" GUID="28a5869d-af1e-4399-80b6-35ce7fff5064" ParentGUID="">
     <PolygonObject UseFillPattern="false">
@@ -429,17 +440,6 @@
      </PolylineObject>
     </PolygonObject>
    </ServiceAreaBoundaryObject>
-  </GraphicObject>
-  <GraphicObject graphic_type="7">
-   <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="1767164672" width="0.5">
-     <Color r="0" g="0" b="0"/>
-     <LatLongTypeList number="2">
-      <LatLongPair latitude="44.68656718500974" longitude="-123.2250097920636"/>
-      <LatLongPair latitude="44.23404395190854" longitude="-122.5880179473995"/>
-     </LatLongTypeList>
-    </GraphicalObject>
-   </RectangleObject>
   </GraphicObject>
  </GraphicObjectList>
  <RFLabelObjectList number="0"/>
@@ -1784,7 +1784,7 @@
  </MultipointStudyLayout>
  <NeighborListGeneration max_neighbors="4" include_2nd_servers="true" include_3rd_servers="true" exclude_co_channel_neighbors="true" group_identifier="master group" server_selection="PowerReceived" copy_predicted_to_actual="false" remote_unit_ID="0"/>
  <TxGroups size="1">
-  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="40">
+  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="43">
    <TX_ID id="ABAA0001" active="true"/>
    <TX_ID id="ABAA0002" active="true"/>
    <TX_ID id="ABAA0003" active="true"/>
@@ -1822,6 +1822,9 @@
    <TX_ID id="ABAU0001" active="true"/>
    <TX_ID id="ABAV0001" active="true"/>
    <TX_ID id="ABAW0001" active="true"/>
+   <TX_ID id="ABAX0001" active="true"/>
+   <TX_ID id="ABAX0002" active="true"/>
+   <TX_ID id="ABAY0001" active="true"/>
    <TX_ID id="ABBA0001" active="true"/>
    <TX_ID id="ABBA0002" active="true"/>
    <TX_ID id="ABBA0003" active="true"/>
