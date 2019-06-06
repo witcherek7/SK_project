@@ -403,10 +403,10 @@
  <BestLOSBuildings ignore_building_edge_shadow="true" use_building_vector_database="false" percent_building_service_objective="99.0" required_fresnel_zone_clearance="1.0" maximum_of_hub_locations_to_be_found="10" cpe_type_index="0">
   <availiable_buildings no_of_avail="0"/>
  </BestLOSBuildings>
- <GraphicObjectList number="2">
+ <GraphicObjectList number="3">
   <GraphicObject graphic_type="7">
    <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="1899365440" width="0.5">
+    <GraphicalObject Id="" IndexForLabel="1161904640" width="0.5">
      <Color r="0" g="0" b="0"/>
      <LatLongTypeList number="2">
       <LatLongPair latitude="44.68656718500974" longitude="-123.2250097920636"/>
@@ -440,6 +440,20 @@
      </PolylineObject>
     </PolygonObject>
    </ServiceAreaBoundaryObject>
+  </GraphicObject>
+  <GraphicObject graphic_type="2">
+   <PolylineObject>
+    <PenDesc width="0.0" style="solid">
+     <Color r="0" g="0" b="0"/>
+    </PenDesc>
+    <GraphicalObject Id="" IndexForLabel="0" width="0.0">
+     <Color r="0" g="0" b="0"/>
+     <LatLongTypeList number="2">
+      <LatLongPair latitude="44.61783055201763" longitude="-123.0618603950668"/>
+      <LatLongPair latitude="44.25548491218184" longitude="-123.0590436937874"/>
+     </LatLongTypeList>
+    </GraphicalObject>
+   </PolylineObject>
   </GraphicObject>
  </GraphicObjectList>
  <RFLabelObjectList number="0"/>
