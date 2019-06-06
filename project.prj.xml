@@ -45,10 +45,7 @@
    <ColorMapEntry val="-90.0" r="0" g="128" b="0" symbol="SOLID"/>
    <ColorMapEntry val="-90.0" r="128" g="128" b="128" symbol="SOLID"/>
   </ColorMap>
-  <ColorMap size="2">
-   <ColorMapEntry val="99.0" r="0" g="0" b="255" symbol="SOLID"/>
-   <ColorMapEntry val="99.0" r="255" g="0" b="0" symbol="NO_SYMBOL"/>
-  </ColorMap>
+  <ColorMap size="0"/>
   <ColorMap size="10">
    <ColorMapEntry val="100.0" r="255" g="255" b="0" symbol="SOLID"/>
    <ColorMapEntry val="90.0" r="255" g="0" b="0" symbol="SOLID"/>
@@ -165,14 +162,14 @@
   </DataGridOptions>
  </LinkDetailsOptions>
  <PROJECT_PANE_TREE size="9">
-  <TreeNode NodeType="RFSystems" NodeText="RF Systems" state="96"/>
-  <TreeNode NodeType="Site" NodeText="Transmitter/Base/Hub/Router Sites" state="98"/>
+  <TreeNode NodeType="RFSystems" NodeText="RF Systems" state="98"/>
+  <TreeNode NodeType="Site" NodeText="Transmitter/Base/Hub/Router Sites" state="96"/>
   <TreeNode NodeType="Link" NodeText="Link Systems" state="0"/>
   <TreeNode NodeType="Views" NodeText="Map Views" state="96"/>
   <TreeNode NodeType="MapView" NodeText="initial view" state="96"/>
   <TreeNode NodeType="MapViewLayer" NodeText="Map Layers" state="96"/>
   <TreeNode NodeType="MapViewAreaStudy" NodeText="Area Studies" state="0"/>
   <TreeNode NodeType="MapViewRteAreaStudy" NodeText="Route Studies" state="0"/>
-  <TreeNode NodeType="MapViewMptStudy" NodeText="Multipoint Studies" state="4096"/>
+  <TreeNode NodeType="MapViewMptStudy" NodeText="Multipoint Studies" state="0"/>
  </PROJECT_PANE_TREE>
 </CommonData>

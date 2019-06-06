@@ -203,3 +203,198 @@
          0.0 sq km in service area
   
   
+ Worst Channel C/(I+N) for Multiple-Channel Systems
+  
+ Downlink required service C/(I+N) threshold:   13.00000    
+  
+  
+ SECTOR ABAA0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAA0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAA0003
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAB0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAB0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAB0003
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAC0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAC0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAC0003
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAC0004
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAD0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAD0003
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAE0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAE0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAF0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAG0003
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAH0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAH0003
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAI0003
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAI0004
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAJ0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAJ0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAK0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAL0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAL0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAN0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAO0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAO0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAP0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAQ0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAR0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAU0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAW0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAX0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAX0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABBA0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABBA0002
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABBA0003
+  
+         0.0 sq km in service area
+  
+  
