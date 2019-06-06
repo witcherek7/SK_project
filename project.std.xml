@@ -403,10 +403,10 @@
  <BestLOSBuildings ignore_building_edge_shadow="true" use_building_vector_database="false" percent_building_service_objective="99.0" required_fresnel_zone_clearance="1.0" maximum_of_hub_locations_to_be_found="10" cpe_type_index="0">
   <availiable_buildings no_of_avail="0"/>
  </BestLOSBuildings>
- <GraphicObjectList number="1">
+ <GraphicObjectList number="2">
   <GraphicObject graphic_type="7">
    <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="2096791424" width="0.5">
+    <GraphicalObject Id="" IndexForLabel="-923043600" width="0.5">
      <Color r="0" g="0" b="0"/>
      <LatLongTypeList number="2">
       <LatLongPair latitude="44.68656718500974" longitude="-123.2250097920636"/>
@@ -414,6 +414,32 @@
      </LatLongTypeList>
     </GraphicalObject>
    </RectangleObject>
+  </GraphicObject>
+  <GraphicObject graphic_type="14">
+   <ServiceAreaBoundaryObject Level_Type="2" GUID="28a5869d-af1e-4399-80b6-35ce7fff5064" ParentGUID="">
+    <PolygonObject UseFillPattern="false">
+     <PolygonObjectFill>
+      <FillDesc fill_style="solid">
+       <Color r="0" g="0" b="0"/>
+      </FillDesc>
+     </PolygonObjectFill>
+     <PolylineObject>
+      <PenDesc width="0.0" style="solid">
+       <Color r="0" g="0" b="0"/>
+      </PenDesc>
+      <GraphicalObject Id="" IndexForLabel="0" width="0.0">
+       <Color r="0" g="255" b="0"/>
+       <LatLongTypeList number="5">
+        <LatLongPair latitude="44.69266731906698" longitude="-123.2270997799244"/>
+        <LatLongPair latitude="44.23543234447398" longitude="-123.2245140979361"/>
+        <LatLongPair latitude="44.23490365824532" longitude="-122.5876854367386"/>
+        <LatLongPair latitude="44.69036737863382" longitude="-122.5877843191769"/>
+        <LatLongPair latitude="44.69207671918186" longitude="-123.2262650191929"/>
+       </LatLongTypeList>
+      </GraphicalObject>
+     </PolylineObject>
+    </PolygonObject>
+   </ServiceAreaBoundaryObject>
   </GraphicObject>
  </GraphicObjectList>
  <RFLabelObjectList number="0"/>
@@ -1301,10 +1327,10 @@
     </TxStudy>
    </TxSite>
   </Transmitter_Template>
-  <Transmitter_Template transmitter_template_label="Copy of ABAB">
+  <Transmitter_Template transmitter_template_label="Copy of ABAF">
    <TxSite>
     <TxStudy>
-     <BaseStation name="" guid="00000000-0000-0000-0000-000000000000" latitude="44.58203662855971" longitude="-123.2756474660422" elevation="72.53104400634766" info_type="1" elevation_type="2">
+     <BaseStation name="" guid="00000000-0000-0000-0000-000000000000" latitude="44.43444570869537" longitude="-122.731824071485" elevation="409.9908752441406" info_type="1" elevation_type="2">
       <Other address_line1="" address_line2="" address_line3="" telephone="" owner="" tower_number="">
        <note_file size="0"/>
        <photo_file size="0"/>
@@ -1312,140 +1338,37 @@
       </Other>
       <Backhaul backhaul_type="none" ID="none"/>
      </BaseStation>
-     <Antennas no_of_antennas="3">
+     <Antennas no_of_antennas="1">
       <Tx frequency="960.0" adaptive_antenna="0" simulcast_delay_offset="0.0" override_most_likely_server_color="false" propagation_group="1" mimo_type_and_size="None" use_amod_table="false" amod_table_name="Global Table" has_repeater="false" repeater_owner="" rpt_interfere="0" rpt_gain="0.0" rpt_type="1">
        <BaseTx tx_id="" UserSectorID="" guid="00000000-0000-0000-0000-000000000000" system="1" focus="false" most_likely_server_symbol="SOLID">
         <most_likely_server_color>
-         <Color r="116" g="2" b="177"/>
+         <Color r="63" g="104" b="130"/>
         </most_likely_server_color>
         <StudySector start_azimuth="0.0" stop_azimuth="360.0" azimuth_increment="1.0" odd_azimuth="-1.0" study_radius="70.0" study_point_spacing="0.1" approximate_range="50.0"/>
        </BaseTx>
        <TransmitterAntenna>
         <TxAntenna coax_cable_loss="1.0" coupling_loss="0.0" coupling_loss_spec_distance="0.0" coax_routing_name="">
-         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="40.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="4.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="Cellular (850MHz) 20 watt" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="0.0" beam_tilt="-15.0" beam_tilt_az="0.0" rotate_antenna="false"/>
+         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="10.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="1.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="Cellular (850MHz) 20 watt" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="180.0" beam_tilt="-15.0" beam_tilt_az="180.0" rotate_antenna="false"/>
         </TxAntenna>
        </TransmitterAntenna>
        <ReceiverAntenna>
         <TxAntenna coax_cable_loss="1.0" coupling_loss="0.0" coupling_loss_spec_distance="0.0" coax_routing_name="">
-         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="40.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="4.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="transmitter 1" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="0.0" beam_tilt="-15.0" beam_tilt_az="0.0" rotate_antenna="false"/>
+         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="10.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="1.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="transmitter 1" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="120.0" beam_tilt="-15.0" beam_tilt_az="120.0" rotate_antenna="false"/>
         </TxAntenna>
        </ReceiverAntenna>
-       <Channel lock_status="unlocked" dvcc="1" bcc="1" ncc="1" dcch="1" lci="1" use_freq_hop="false" freq_hop_gain="3.0" gsm_diversity_gain_type="1" gsm_fixed_diversity_gain="3.0" gsm_db_per_freq_gain="3.0" gsm_fh_sequence_no="0" gsm_maio_offset="0" gsm_AMR_on="0" gsm_DTX_on="0" gsm_dtx_intrf_gain="3.0" number_of_assignable_downlink_channels="0" number_of_assignable_uplink_channels="0" sat="5970" dcc="1" band="L">
-        <ChannelSet assigned_channels="4">
-         <chan num="6"/>
-         <chan num="20"/>
-         <chan num="46"/>
-         <chan num="110"/>
-        </ChannelSet>
+       <Channel lock_status="locked and specified" dvcc="1" bcc="1" ncc="1" dcch="1" lci="1" use_freq_hop="false" freq_hop_gain="3.0" gsm_diversity_gain_type="1" gsm_fixed_diversity_gain="3.0" gsm_db_per_freq_gain="3.0" gsm_fh_sequence_no="0" gsm_maio_offset="0" gsm_AMR_on="0" gsm_DTX_on="0" gsm_dtx_intrf_gain="3.0" number_of_assignable_downlink_channels="0" number_of_assignable_uplink_channels="0" sat="5970" dcc="1" band="L">
+        <ChannelSet assigned_channels="0"/>
         <ChannelSetExcluded assigned_channels="0"/>
-        <TrafficStatSet num_calc_channel="31">
+        <TrafficStatSet num_calc_channel="8">
          <Measured>
           <TrafficStat average_voice="0.0" average_data="0.0" average_uplink_data="0.0"/>
          </Measured>
          <Predicted>
-          <TrafficStat average_voice="18803.4395" average_data="18.8034" average_uplink_data="18.8034"/>
+          <TrafficStat average_voice="2459.8901" average_data="2.4599" average_uplink_data="2.4599"/>
          </Predicted>
         </TrafficStatSet>
        </Channel>
-       <CdmaChannels traffic_channels_per_carrier="31" use_system_type_defaults="true" num_tces_enabled="1" percent_power_for_pilot_channel="20.0" percent_power_for_traffic_channel="75.0" percent_power_for_sync_channel="2.0" percent_power_for_paging_channel="3.0" handoff_initiate_threshold="-12.0" handoff_drop_threshold="-16.0" traffic_data_rate="1200.0" CDMA_PN_offset_index="1"/>
-       <WiMAXChannels segment="1" id_cell="0" preamble_pn="0"/>
-       <LTEChannels cell_id="0" cell_id_group="0"/>
-       <MeasAnalysis data_file_name="" selected_sector="" meas_data_file_type="EDX" limit_by_distance="false" limit_by_azimuth="false" limit_by_boundary_file="false" limit_by_measurement="false" limit_by_avg_data="false" distance_min="0.1" distance_max="1000.0" azimuth_start="0.0" azimuth_end="0.0" measurement_min="0.0" measurement_max="0.0" average_data="1.0" boundary_file=""/>
-       <Receiver adjacent_channel_rejection="25.0" use_diversity_receive_antenna="false" predicted_ul_ix="-160.0" measured_ul_ix="-160.0" override_ul_ix="false" use_TTA_multi="false">
-        <ReceiverBase required_service_CIN_ratio="12.96452855061952" system_noise_figure="5.0" eff_noise_bandwidth="0.2" filter_file_code="0" diversity_type="unprotected" effective_diversity_gain="5.0"/>
-        <AmplifierData use_TTA="false" use_multicoupler="false" TTA_gain="0.0" TTA_noise="0.0" MC_gain="0.0" MC_noise="0.0" BTS_noise="0.0"/>
-       </Receiver>
-       <OptimizationData cost="0.0"/>
-       <Predicted_Neighbor_List>
-        <NeighborList number_entries="0"/>
-       </Predicted_Neighbor_List>
-       <Actual_Neighbor_List>
-        <NeighborList number_entries="0"/>
-       </Actual_Neighbor_List>
-      </Tx>
-      <Tx frequency="960.0" adaptive_antenna="0" simulcast_delay_offset="0.0" override_most_likely_server_color="false" propagation_group="1" mimo_type_and_size="None" use_amod_table="false" amod_table_name="Global Table" has_repeater="false" repeater_owner="" rpt_interfere="0" rpt_gain="0.0" rpt_type="1">
-       <BaseTx tx_id="" UserSectorID="" guid="00000000-0000-0000-0000-000000000000" system="1" focus="false" most_likely_server_symbol="SOLID">
-        <most_likely_server_color>
-         <Color r="159" g="93" b="98"/>
-        </most_likely_server_color>
-        <StudySector start_azimuth="0.0" stop_azimuth="360.0" azimuth_increment="1.0" odd_azimuth="-1.0" study_radius="70.0" study_point_spacing="0.1" approximate_range="50.0"/>
-       </BaseTx>
-       <TransmitterAntenna>
-        <TxAntenna coax_cable_loss="1.0" coupling_loss="0.0" coupling_loss_spec_distance="0.0" coax_routing_name="">
-         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="40.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="4.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="Cellular (850MHz) 20 watt" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="100.0" beam_tilt="-15.0" beam_tilt_az="100.0" rotate_antenna="false"/>
-        </TxAntenna>
-       </TransmitterAntenna>
-       <ReceiverAntenna>
-        <TxAntenna coax_cable_loss="1.0" coupling_loss="0.0" coupling_loss_spec_distance="0.0" coax_routing_name="">
-         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="40.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="4.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="transmitter 1" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="100.0" beam_tilt="-15.0" beam_tilt_az="100.0" rotate_antenna="false"/>
-        </TxAntenna>
-       </ReceiverAntenna>
-       <Channel lock_status="unlocked" dvcc="1" bcc="1" ncc="1" dcch="1" lci="1" use_freq_hop="false" freq_hop_gain="3.0" gsm_diversity_gain_type="1" gsm_fixed_diversity_gain="3.0" gsm_db_per_freq_gain="3.0" gsm_fh_sequence_no="0" gsm_maio_offset="0" gsm_AMR_on="0" gsm_DTX_on="0" gsm_dtx_intrf_gain="3.0" number_of_assignable_downlink_channels="0" number_of_assignable_uplink_channels="0" sat="5970" dcc="1" band="L">
-        <ChannelSet assigned_channels="4">
-         <chan num="9"/>
-         <chan num="68"/>
-         <chan num="81"/>
-         <chan num="94"/>
-        </ChannelSet>
-        <ChannelSetExcluded assigned_channels="0"/>
-        <TrafficStatSet num_calc_channel="29">
-         <Measured>
-          <TrafficStat average_voice="0.0" average_data="0.0" average_uplink_data="0.0"/>
-         </Measured>
-         <Predicted>
-          <TrafficStat average_voice="17792.3809" average_data="17.7924" average_uplink_data="17.7924"/>
-         </Predicted>
-        </TrafficStatSet>
-       </Channel>
-       <CdmaChannels traffic_channels_per_carrier="29" use_system_type_defaults="true" num_tces_enabled="1" percent_power_for_pilot_channel="20.0" percent_power_for_traffic_channel="75.0" percent_power_for_sync_channel="2.0" percent_power_for_paging_channel="3.0" handoff_initiate_threshold="-12.0" handoff_drop_threshold="-16.0" traffic_data_rate="1200.0" CDMA_PN_offset_index="1"/>
-       <WiMAXChannels segment="0" id_cell="0" preamble_pn="0"/>
-       <LTEChannels cell_id="0" cell_id_group="0"/>
-       <MeasAnalysis data_file_name="" selected_sector="" meas_data_file_type="EDX" limit_by_distance="false" limit_by_azimuth="false" limit_by_boundary_file="false" limit_by_measurement="false" limit_by_avg_data="false" distance_min="0.1" distance_max="1000.0" azimuth_start="0.0" azimuth_end="0.0" measurement_min="0.0" measurement_max="0.0" average_data="1.0" boundary_file=""/>
-       <Receiver adjacent_channel_rejection="25.0" use_diversity_receive_antenna="false" predicted_ul_ix="-160.0" measured_ul_ix="-160.0" override_ul_ix="false" use_TTA_multi="false">
-        <ReceiverBase required_service_CIN_ratio="12.96452855061952" system_noise_figure="5.0" eff_noise_bandwidth="0.2" filter_file_code="0" diversity_type="unprotected" effective_diversity_gain="5.0"/>
-        <AmplifierData use_TTA="false" use_multicoupler="false" TTA_gain="0.0" TTA_noise="0.0" MC_gain="0.0" MC_noise="0.0" BTS_noise="0.0"/>
-       </Receiver>
-       <OptimizationData cost="0.0"/>
-       <Predicted_Neighbor_List>
-        <NeighborList number_entries="0"/>
-       </Predicted_Neighbor_List>
-       <Actual_Neighbor_List>
-        <NeighborList number_entries="0"/>
-       </Actual_Neighbor_List>
-      </Tx>
-      <Tx frequency="960.0" adaptive_antenna="0" simulcast_delay_offset="0.0" override_most_likely_server_color="false" propagation_group="1" mimo_type_and_size="None" use_amod_table="false" amod_table_name="Global Table" has_repeater="false" repeater_owner="" rpt_interfere="0" rpt_gain="0.0" rpt_type="1">
-       <BaseTx tx_id="" UserSectorID="" guid="00000000-0000-0000-0000-000000000000" system="1" focus="false" most_likely_server_symbol="SOLID">
-        <most_likely_server_color>
-         <Color r="134" g="156" b="190"/>
-        </most_likely_server_color>
-        <StudySector start_azimuth="0.0" stop_azimuth="360.0" azimuth_increment="1.0" odd_azimuth="-1.0" study_radius="70.0" study_point_spacing="0.1" approximate_range="50.0"/>
-       </BaseTx>
-       <TransmitterAntenna>
-        <TxAntenna coax_cable_loss="1.0" coupling_loss="0.0" coupling_loss_spec_distance="0.0" coax_routing_name="">
-         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="40.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="4.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="Cellular (850MHz) 20 watt" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="210.0" beam_tilt="-15.0" beam_tilt_az="210.0" rotate_antenna="false"/>
-        </TxAntenna>
-       </TransmitterAntenna>
-       <ReceiverAntenna>
-        <TxAntenna coax_cable_loss="1.0" coupling_loss="0.0" coupling_loss_spec_distance="0.0" coax_routing_name="">
-         <Antenna polarization="vertical" antenna_pattern="Use file" use_tx_rx_type_db="false" antenna_pattern_filename="&lt;INSTALL_PATH&gt;\LIBRARY DATA\PAT\DB872H83.PAT" antenna_height="40.0" trans_line_type="custom" trans_line_length="0.0" trans_line_loss="4.0" multiplexer_loss="0.0" misc_system_losses="0.0" antenna_gain="9.4" radome_loss="0.0" max_transmit_power_per_channel="13.0" min_transmit_power_per_channel="0.0" tx_rx_type="transmitter 1" power_spectral_density_file_code="0" cross_polarization_rejection="15.0" antenna_type="Parabolic dish antenna" use_antenna_type="false" az_orient="210.0" beam_tilt="-15.0" beam_tilt_az="210.0" rotate_antenna="false"/>
-        </TxAntenna>
-       </ReceiverAntenna>
-       <Channel lock_status="unlocked" dvcc="1" bcc="1" ncc="1" dcch="1" lci="1" use_freq_hop="false" freq_hop_gain="3.0" gsm_diversity_gain_type="1" gsm_fixed_diversity_gain="3.0" gsm_db_per_freq_gain="3.0" gsm_fh_sequence_no="0" gsm_maio_offset="0" gsm_AMR_on="0" gsm_DTX_on="0" gsm_dtx_intrf_gain="3.0" number_of_assignable_downlink_channels="0" number_of_assignable_uplink_channels="0" sat="5970" dcc="1" band="L">
-        <ChannelSet assigned_channels="2">
-         <chan num="113"/>
-         <chan num="118"/>
-        </ChannelSet>
-        <ChannelSetExcluded assigned_channels="0"/>
-        <TrafficStatSet num_calc_channel="16">
-         <Measured>
-          <TrafficStat average_voice="0.0" average_data="0.0" average_uplink_data="0.0"/>
-         </Measured>
-         <Predicted>
-          <TrafficStat average_voice="7829.6445" average_data="7.8296" average_uplink_data="7.8296"/>
-         </Predicted>
-        </TrafficStatSet>
-       </Channel>
-       <CdmaChannels traffic_channels_per_carrier="16" use_system_type_defaults="true" num_tces_enabled="1" percent_power_for_pilot_channel="20.0" percent_power_for_traffic_channel="75.0" percent_power_for_sync_channel="2.0" percent_power_for_paging_channel="3.0" handoff_initiate_threshold="-12.0" handoff_drop_threshold="-16.0" traffic_data_rate="1200.0" CDMA_PN_offset_index="1"/>
+       <CdmaChannels traffic_channels_per_carrier="8" use_system_type_defaults="true" num_tces_enabled="1" percent_power_for_pilot_channel="20.0" percent_power_for_traffic_channel="75.0" percent_power_for_sync_channel="2.0" percent_power_for_paging_channel="3.0" handoff_initiate_threshold="-12.0" handoff_drop_threshold="-16.0" traffic_data_rate="1200.0" CDMA_PN_offset_index="1"/>
        <WiMAXChannels segment="2" id_cell="0" preamble_pn="0"/>
        <LTEChannels cell_id="0" cell_id_group="0"/>
        <MeasAnalysis data_file_name="" selected_sector="" meas_data_file_type="EDX" limit_by_distance="false" limit_by_azimuth="false" limit_by_boundary_file="false" limit_by_measurement="false" limit_by_avg_data="false" distance_min="0.1" distance_max="1000.0" azimuth_start="0.0" azimuth_end="0.0" measurement_min="0.0" measurement_max="0.0" average_data="1.0" boundary_file=""/>
@@ -1530,7 +1453,7 @@
   </Transmitter_Template>
  </Transmitter_Templates>
  <FirstGenSystem>
-  <SystemTypeList last_selected_index="1" service_area_boundary_filename="&lt;PROJECT_PATH&gt;\LINIA.BNA">
+  <SystemTypeList last_selected_index="1" service_area_boundary_filename="&lt;PROJECT_PATH&gt;\LINIA2.BNA">
    <SystemType system_name="system group 1" system_type="GSM" frequency_band="935 MHz" custom_lower_band_edge1="1000.0" custom_upper_band_edge1="1000.0" custom_lower_band_edge2="1000.0" custom_upper_band_edge2="1000.0" custom_lower_band_edge3="1000.0" custom_upper_band_edge3="1000.0" custom_lower_band_edge4="935.0" custom_upper_band_edge4="960.0" forward_link_lower_band_edge="935.0" forward_link_upper_band_edge="960.0" system_carrier_spacing="200.0" voice_channels_per_RF_channel="8" signal_level_minimum="1.0" track_traffic="false" track_traffic_type="1" track_traffic_cap="0.0">
     <ChannelPlanTemplate channel_plan_template_filename="&lt;PROJECT_PATH&gt;\GSM4.CPT" no_of_channel_group_colors="8" downlink_fade_margin_objective="10.0" uplink_fade_margin_objective="10.0" maximum_channel_overbooking_pc="10.0" assign_multiple_access_channels="false" assign_frequency_hopping_sequences="false" frequency_hopping_sequency_filename="" random_seed="0" assignment_mode="find_and_set_all_servers" channel_assignment_mode="assign_any_uplink_non_interfering_to_CT">
      <group>
@@ -1861,7 +1784,7 @@
  </MultipointStudyLayout>
  <NeighborListGeneration max_neighbors="4" include_2nd_servers="true" include_3rd_servers="true" exclude_co_channel_neighbors="true" group_identifier="master group" server_selection="PowerReceived" copy_predicted_to_actual="false" remote_unit_ID="0"/>
  <TxGroups size="1">
-  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="24">
+  <TxGroup name="Master group" guid="a07b661e-f7c1-4c14-ae37-116aeebd111e" description="All sites and sectors" receiver_locked="false" number="40">
    <TX_ID id="ABAA0001" active="true"/>
    <TX_ID id="ABAA0002" active="true"/>
    <TX_ID id="ABAA0003" active="true"/>
@@ -1881,8 +1804,24 @@
    <TX_ID id="ABAH0002" active="true"/>
    <TX_ID id="ABAH0003" active="true"/>
    <TX_ID id="ABAI0003" active="true"/>
+   <TX_ID id="ABAI0004" active="true"/>
    <TX_ID id="ABAJ0001" active="true"/>
    <TX_ID id="ABAJ0002" active="true"/>
+   <TX_ID id="ABAK0001" active="true"/>
+   <TX_ID id="ABAL0001" active="true"/>
+   <TX_ID id="ABAL0002" active="true"/>
+   <TX_ID id="ABAM0001" active="true"/>
+   <TX_ID id="ABAN0001" active="true"/>
+   <TX_ID id="ABAO0001" active="true"/>
+   <TX_ID id="ABAO0002" active="true"/>
+   <TX_ID id="ABAP0001" active="true"/>
+   <TX_ID id="ABAQ0001" active="true"/>
+   <TX_ID id="ABAR0001" active="true"/>
+   <TX_ID id="ABAS0001" active="true"/>
+   <TX_ID id="ABAT0001" active="true"/>
+   <TX_ID id="ABAU0001" active="true"/>
+   <TX_ID id="ABAV0001" active="true"/>
+   <TX_ID id="ABAW0001" active="true"/>
    <TX_ID id="ABBA0001" active="true"/>
    <TX_ID id="ABBA0002" active="true"/>
    <TX_ID id="ABBA0003" active="true"/>
