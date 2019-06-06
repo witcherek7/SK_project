@@ -128,11 +128,6 @@
          0.0 sq km in service area
   
   
- SECTOR ABAM0001
-  
-         0.0 sq km in service area
-  
-  
  SECTOR ABAN0001
   
          0.0 sq km in service area
@@ -163,27 +158,22 @@
          0.0 sq km in service area
   
   
- SECTOR ABAS0001
-  
-         0.0 sq km in service area
-  
-  
- SECTOR ABAT0001
-  
-         0.0 sq km in service area
-  
-  
  SECTOR ABAU0001
   
          0.0 sq km in service area
   
   
- SECTOR ABAV0001
+ SECTOR ABAW0001
   
          0.0 sq km in service area
   
   
- SECTOR ABAW0001
+ SECTOR ABAX0001
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR ABAX0002
   
          0.0 sq km in service area
   

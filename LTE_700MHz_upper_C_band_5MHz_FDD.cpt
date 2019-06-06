@@ -1,0 +1,4 @@
+version 3 cpt EDX channel plan template file
+total number of channels listed = 2
+631 ,D ,779 ,5 ,0 ,0 ,27000 ,10 ,631 ,OFDMA channel UC1
+632 ,D ,784 ,5 ,0 ,0 ,27000 ,10 ,632 ,OFDMA channel UC2

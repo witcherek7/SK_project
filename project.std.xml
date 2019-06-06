@@ -406,7 +406,7 @@
  <GraphicObjectList number="2">
   <GraphicObject graphic_type="7">
    <RectangleObject is_rounded="false">
-    <GraphicalObject Id="" IndexForLabel="1680320944" width="0.5">
+    <GraphicalObject Id="" IndexForLabel="926433860" width="0.5">
      <Color r="0" g="0" b="0"/>
      <LatLongTypeList number="2">
       <LatLongPair latitude="44.68656718500974" longitude="-123.2250097920636"/>
@@ -570,9 +570,19 @@
   <wimax_lte_data profile_name="default" frame_duration="1.0" cyclic_prefix="1/4" fft_size="1024" bandwidth="10.0" pusc_downlink_pct="100.0" pusc_uplink_pct="100.0" o_pusc_uplink_pct="0.0" fusc_downlink_pct="0.0" fusc_uplink_pct="0.0" o_fusc_downlink_pct="0.0" amc_downlink_pct="0.0" amc_uplink_pct="0.0" tusc1_downlink_pct="0.0" tusc2_downlink_pct="0.0" isTDD="true" amod_table_name="Global Table"/>
   <ChannelPlanTemplate channel_plan_template_filename="" no_of_channel_group_colors="0" downlink_fade_margin_objective="10.0" uplink_fade_margin_objective="10.0" maximum_channel_overbooking_pc="10.0" assign_multiple_access_channels="false" assign_frequency_hopping_sequences="false" frequency_hopping_sequency_filename="" random_seed="0" assignment_mode="find_and_set_all_servers" channel_assignment_mode="assign_any_uplink_non_interfering_to_CT"/>
  </WimaxLTESystem>
- <WimaxLTESystemLTE profile_name="" measured_sector_interference_filename="" service_area_boundary_filename="" use_power_ratio="false" handoff_threshold="-90.0" min_useable_level="-100.0" power_ratio="10.0" use_model_power_control="false" handoff_threshold_inter="-90.0" min_useable_level_inter="-100.0" plmn_offset_inter="10.0" r1_percent_subcarriers_tdd="0.0" R1R3_resource_blocks_fdd="0" count="1">
+ <WimaxLTESystemLTE profile_name="LTE_E-UTRA - 5.0MHz - FDD" measured_sector_interference_filename="" service_area_boundary_filename="" use_power_ratio="false" handoff_threshold="-90.0" min_useable_level="-100.0" power_ratio="10.0" use_model_power_control="false" handoff_threshold_inter="-90.0" min_useable_level_inter="-100.0" plmn_offset_inter="10.0" r1_percent_subcarriers_tdd="0.0" R1R3_resource_blocks_fdd="25" count="4">
   <wimax_lte_data_lte profile_name="default" frame_duration="1.0" cyclic_prefix="4.7 탎 NORMAL" fft_size="1024" bandwidth="10.0" TDD_UD_ratio="0 - (2.33)" isTDD="true"/>
-  <ChannelPlanTemplate channel_plan_template_filename="" no_of_channel_group_colors="0" downlink_fade_margin_objective="10.0" uplink_fade_margin_objective="10.0" maximum_channel_overbooking_pc="10.0" assign_multiple_access_channels="false" assign_frequency_hopping_sequences="false" frequency_hopping_sequency_filename="" random_seed="0" assignment_mode="find_and_set_all_servers" channel_assignment_mode="assign_any_uplink_non_interfering_to_CT"/>
+  <wimax_lte_data_lte profile_name="LTE_E-UTRA - 1.25MHz - FDD" frame_duration="1.0" cyclic_prefix="4.7 탎 NORMAL" fft_size="72" bandwidth="1.25" TDD_UD_ratio="0 - (2.33)" isTDD="false"/>
+  <wimax_lte_data_lte profile_name="LTE_E-UTRA - 5.0MHz - FDD" frame_duration="1.0" cyclic_prefix="16.7 탎 EXTENDED" fft_size="300" bandwidth="5.0" TDD_UD_ratio="0 - (2.33)" isTDD="false"/>
+  <wimax_lte_data_lte profile_name="LTE_E-UTRA - 5.0MHz - TDD" frame_duration="1.0" cyclic_prefix="4.7 탎 NORMAL" fft_size="300" bandwidth="5.0" TDD_UD_ratio="0 - (2.33)" isTDD="true"/>
+  <ChannelPlanTemplate channel_plan_template_filename="&lt;PROJECT_PATH&gt;\LTE_700MHZ_UPPER_C_BAND_5MHZ_FDD.CPT" no_of_channel_group_colors="2" downlink_fade_margin_objective="10.0" uplink_fade_margin_objective="10.0" maximum_channel_overbooking_pc="10.0" assign_multiple_access_channels="false" assign_frequency_hopping_sequences="false" frequency_hopping_sequency_filename="" random_seed="0" assignment_mode="find_and_set_all_servers" channel_assignment_mode="assign_any_uplink_non_interfering_to_CT">
+   <group>
+    <Color r="172" g="96" b="208"/>
+   </group>
+   <group>
+    <Color r="128" g="7" b="122"/>
+   </group>
+  </ChannelPlanTemplate>
  </WimaxLTESystemLTE>
  <PTCSystemInfo profile_name="" measured_sector_interference_filename="" service_area_boundary_filename="" use_power_ratio="false" handoff_threshold="-90.0" min_useable_level="-100.0" power_ratio="10.0" use_model_power_control="false" SystemType="NXDN" UseStudiesRouteInfo="true">
   <RouteStudyParms study_route_filename="" route_point_spacing="0.5" interpolate_points_along_route="true" use_remote="true" use_study_limit="false"/>
