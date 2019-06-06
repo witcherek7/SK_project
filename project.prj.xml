@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <CommonData Version="8.4.0">
- <BuildingDatabase building_floorplan_database_path="C:\PROGRAM FILES\EDX\SIGNALPRO" wall_material_type_data_filename="C:\PROGRAM FILES\EDX\SIGNALPRO\DATA\MAT_CHAR.DAT" building_attribute_filename="" preprocess_building_data_for_wall_closures_connections="false" building_height_error_margin="0.0" use_building_das_design_files="false" building_das_database_path="" building_das_tx_template_index="0"/>
+ <BuildingDatabase building_floorplan_database_path="&lt;INSTALL_PATH&gt;" wall_material_type_data_filename="&lt;INSTALL_PATH&gt;\DATA\MAT_CHAR.DAT" building_attribute_filename="" preprocess_building_data_for_wall_closures_connections="false" building_height_error_margin="0.0" use_building_das_design_files="false" building_das_database_path="" building_das_tx_template_index="0"/>
  <BuildingDASDatabase building_das_floors_txs_active_mode="1" building_das_num_floors_above_below="0" building_das_show_walls_based_on_tx_setting="false" building_das_rf_equipment_path="" building_das_display_floor_entity="false" building_das_keep_floor_study_files="false" building_das_vertex_inclusion="1.5"/>
  <TowerDatabase tower_floorplan_database_path="" street_dir="" bounding_file=""/>
  <DemographicDatabase>
-  <DatabaseEntry type="U.S. 2010 Census" path="C:\PROGRAM FILES\EDX\SIGNALPRO\SAMPLE DATA\SAMPLE_DEMOGRAPHIC_DATA" active="true"/>
+  <DatabaseEntry type="U.S. 2010 Census" path="&lt;INSTALL_PATH&gt;\SAMPLE DATA\SAMPLE_DEMOGRAPHIC_DATA" active="true"/>
   <DatabaseEntry type="-None-" path="" active="false"/>
   <DatabaseEntry type="-None-" path="" active="false"/>
   <DatabaseEntry type="-None-" path="" active="false"/>
   <DatabaseEntry type="-None-" path="" active="false"/>
  </DemographicDatabase>
- <LandUseClutterDatabase attenuation_file="C:\PROGRAM FILES\EDX\SIGNALPRO\DATA\GCATTN_USGS2011.DAT" bna_clutter_region="" bna_new_clutter_datafile="" grid_spacing="0.0">
-  <GroundcoverPath type="EDX .GCV format" path="C:\PROGRAM FILES\EDX\SIGNALPRO\SAMPLE DATA\SAMPLE_CLUTTER_DATA" active="true"/>
+ <LandUseClutterDatabase attenuation_file="&lt;INSTALL_PATH&gt;\DATA\GCATTN_USGS2011.DAT" bna_clutter_region="" bna_new_clutter_datafile="" grid_spacing="0.0">
+  <GroundcoverPath type="EDX .GCV format" path="&lt;INSTALL_PATH&gt;\SAMPLE DATA\SAMPLE_CLUTTER_DATA" active="true"/>
   <GroundcoverPath type="-None-" path="" active="false"/>
   <GroundcoverPath type="-None-" path="" active="false"/>
   <GroundcoverPath type="-None-" path="" active="false"/>
   <GroundcoverPath type="-None-" path="" active="false"/>
  </LandUseClutterDatabase>
- <TrafficDatabase type="EDX point data" source="uniform traffic" path="C:\PROGRAM FILES\EDX\SIGNALPRO\SAMPLE DATA\SAMPLE_TRAFFIC_DATA" region_bna_file="" service_bna_file="" trf_datafile="" select_density="1000.0" use_data_for_select="false" source_density="1000.0" use_data_for_source="false" grid_step_size="1.0"/>
+ <TrafficDatabase type="EDX point data" source="uniform traffic" path="&lt;INSTALL_PATH&gt;\SAMPLE DATA\SAMPLE_TRAFFIC_DATA" region_bna_file="" service_bna_file="" trf_datafile="" select_density="1000.0" use_data_for_select="false" source_density="1000.0" use_data_for_source="false" grid_step_size="1.0"/>
  <TerrainDatabase terrain_height_error_margin="0.0">
-  <TerrainDataSource type="EDX universal .201 format" path="C:\PROGRAM FILES\EDX\SIGNALPRO\SAMPLE DATA\SAMPLE_TERRAIN_DATA" active="true"/>
-  <TerrainDataSource type="EDX universal .201 format" path="C:\PROGRAM FILES\EDX\SIGNALPRO\DATA" active="false"/>
-  <TerrainDataSource type="EDX universal .201 format" path="C:\PROGRAM FILES\EDX\SIGNALPRO\DATA" active="false"/>
-  <TerrainDataSource type="EDX universal .201 format" path="C:\PROGRAM FILES\EDX\SIGNALPRO\DATA" active="false"/>
-  <TerrainDataSource type="EDX universal .201 format" path="C:\PROGRAM FILES\EDX\SIGNALPRO\DATA" active="false"/>
+  <TerrainDataSource type="EDX universal .201 format" path="&lt;INSTALL_PATH&gt;\SAMPLE DATA\SAMPLE_TERRAIN_DATA" active="true"/>
+  <TerrainDataSource type="EDX universal .201 format" path="&lt;INSTALL_PATH&gt;\DATA" active="false"/>
+  <TerrainDataSource type="EDX universal .201 format" path="&lt;INSTALL_PATH&gt;\DATA" active="false"/>
+  <TerrainDataSource type="EDX universal .201 format" path="&lt;INSTALL_PATH&gt;\DATA" active="false"/>
+  <TerrainDataSource type="EDX universal .201 format" path="&lt;INSTALL_PATH&gt;\DATA" active="false"/>
  </TerrainDatabase>
  <ColorMapVector size="10">
   <ColorMap size="10">
@@ -162,7 +162,7 @@
   </DataGridOptions>
  </LinkDetailsOptions>
  <PROJECT_PANE_TREE size="9">
-  <TreeNode NodeType="RFSystems" NodeText="RF Systems" state="98"/>
+  <TreeNode NodeType="RFSystems" NodeText="RF Systems" state="96"/>
   <TreeNode NodeType="Site" NodeText="Transmitter/Base/Hub/Router Sites" state="96"/>
   <TreeNode NodeType="Link" NodeText="Link Systems" state="0"/>
   <TreeNode NodeType="Views" NodeText="Map Views" state="96"/>
